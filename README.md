@@ -1,4 +1,4 @@
-# Object Detection and Classification Project
+# Object Detection and Classification in classroom with InceptionV3 model
 
 ## Project Description
 This project focuses on object detection and classification in images using TensorFlow and OpenCV. It leverages the powerful deep learning capabilities of TensorFlow to train models on annotated datasets and OpenCV for image processing tasks. The goal is to accurately identify and classify objects within a variety of image contexts.
