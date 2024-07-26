@@ -28,7 +28,19 @@ Before you begin, ensure you have the following installed:
 ## Example
 You can run example notebook from `/notebooks/example.ipynb` to training model easier
 
+## Data
+
+The data used in this project were meticulously collected from Classroom Objects and processed by our team. We gathered images through photography and manually annotated each image with labels and bounding boxes to ensure high-quality training data for our model. This dataset is essential for the precision and effectiveness of the object detection and classification tasks.
+
+If you wish to access the dataset, please visit the following Google Drive link:
+[Access Dataset](https://drive.google.com/path_to_your_dataset)
+
+Please note that the data is provided for academic and non-commercial use only.
+
+
 ## Results
+**After training the model, we had a result with Mean IoU: 0.7363 - Acc: 0.9362**
+
 <p align="center">
   <img src="Images/results.png" alt="Example Image 1" width="800"/>
 </p>
