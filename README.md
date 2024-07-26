@@ -49,6 +49,13 @@ Please note that the data is provided for academic and non-commercial use only.
   <img src="Images/results.png" alt="Example Image 1" width="800"/>
 </p>
 
+## Demonstration
+
+Here is a quick demonstration of the application in action:
+
+![Application Demo](images/demo.gif)
+
+
 ## Installation
 
 ### Setting Up a Virtual Environment
