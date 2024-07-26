@@ -50,7 +50,21 @@ Please note that the data is provided for academic and non-commercial use only.
 ### Setting Up a Virtual Environment
 It is recommended to use a virtual environment to avoid conflicts with existing Python packages from `requirements.txt`.
 
-#### For Unix/macOS:
-```bash
-python3 -m venv env
-source env/bin/activate
+## Citation
+
+If you utilize the Inception v3 model in your project, please consider citing the original paper. Here is the citation in APA format:
+
+Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., & Wojna, Z. (2016). Rethinking the Inception Architecture for Computer Vision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2818-2826.
+
+For BibTeX users:
+
+```bibtex
+@inproceedings{szegedy2016rethinking,
+  title={Rethinking the Inception Architecture for Computer Vision},
+  author={Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jonathon and Wojna, Zbigniew},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={2818--2826},
+  year={2016}
+}
+
+
