@@ -3,6 +3,9 @@
 ## Project Description
 This project focuses on object detection and classification in images using TensorFlow and OpenCV. It leverages the powerful deep learning capabilities of TensorFlow to train models on annotated datasets and OpenCV for image processing tasks. The goal is to accurately identify and classify objects within a variety of image contexts.
 
+##Example images after processing data with truth label and bouding box 
+![ExamplesImage](Images/model_img.png)
+
 ## Features
 - Use of TensorFlow for model training and inference.
 - Image processing and manipulation with OpenCV.
@@ -18,7 +21,7 @@ Before you begin, ensure you have the following installed:
 - pip (Python package installer)
 
 ## Example
-You can run example notebook from `notebooks/example.ipynb` to training model easier
+You can run example notebook from `/notebooks/example.ipynb` to training model easier
 
 ## Installation
 
