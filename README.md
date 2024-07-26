@@ -18,7 +18,7 @@ This project focuses on object detection and classification in images using Tens
 - Visualization of detection results.
 
 ## Model
-![Model](Images/model_img.png)
+![Model](Images/Architecture-of-Inception-v3.png)
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
