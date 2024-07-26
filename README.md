@@ -53,7 +53,7 @@ Please note that the data is provided for academic and non-commercial use only.
 
 Here is a quick demonstration of the application in action:
 
-![Application Demo](images/demo.gif)
+![Application Demo](Images/demo.gif)
 
 
 ## Installation
