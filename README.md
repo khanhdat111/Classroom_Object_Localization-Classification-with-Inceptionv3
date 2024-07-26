@@ -33,7 +33,7 @@ You can run example notebook from `/notebooks/example.ipynb` to train model easi
 The data used in this project were meticulously collected from Classroom Objects and processed by our team. We gathered images through photography and manually annotated each image with labels and bounding boxes to ensure high-quality training data for our model. This dataset is essential for the precision and effectiveness of the object detection and classification tasks.
 
 If you wish to access the dataset, please visit the following Google Drive link:
-[Access Dataset](https://drive.google.com/path_to_your_dataset)
+[Access Dataset](https://drive.google.com/drive/folders/17gH7V77CQ9TP8NqOSK9iToDXGio-ErwW?usp=sharing)
 
 Please note that the data is provided for academic and non-commercial use only.
 
