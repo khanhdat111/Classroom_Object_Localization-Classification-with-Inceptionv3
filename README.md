@@ -20,7 +20,7 @@ Before you begin, ensure you have the following installed:
 ## Installation
 
 ### Setting Up a Virtual Environment
-It is recommended to use a virtual environment to avoid conflicts with existing Python packages.
+It is recommended to use a virtual environment to avoid conflicts with existing Python packages from `requirements.txt`.
 
 #### For Unix/macOS:
 ```bash
