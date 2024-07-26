@@ -10,7 +10,7 @@ This project focuses on object detection and classification in images using Tens
 - Visualization of detection results.
 
 ## Model
-
+![Model](Images/model_img.png)
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
