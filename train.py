@@ -1,5 +1,11 @@
 from model.ciou_loss import ciou_loss
-from model.InceptionV3 import Inceptionv3
+from model.InceptionV3 import InceptionV3
+
+from tensorflow.keras.callbacks import ModelCheckpoint, CSVLogger, ReduceLROnPlateau, EarlyStopping, TensorBoard
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import BinaryCrossentropy, SparseCategoricalCrossentropy,CategoricalCrossentropy
+
+model = InceptionV3()
 
 lr = 1e-4  
 num_epochs = #your_expect_epochs
