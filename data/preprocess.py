@@ -8,6 +8,9 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt 
 import matplotlib.patches as patches
 
+from sklearn.preprocessing import LabelEncoder
+
+
 def xml_to_csv(path):
     xml_list = []
     for file in os.scandir(path):
@@ -41,3 +44,17 @@ if __name__ == "__main__":
     test = xml_to_csv(path_test)
     
     print('Successfully converted xml to csv.')
+
+    #Label encoder data
+    label_encoder = LabelEncoder()
+    original_values = train['class'].unique()
+
+    train['class_encoded'] = label_encoder.fit_transform(train['class'])
+    valid['class_encoded'] = label_encoder.fit_transform(valid['class'])
+    test['class_encoded'] = label_encoder.fit_transform(test['class'])
+
+    #Sort labels in alphabetical order
+    pre_dict = train[['class', 'class_encoded']].drop_duplicates()
+    class_dict= pd.Series(pre_dict.class_encoded.values, index=pre_dict['class']).to_dict()
+    class_dict = sorted(class_dict.items(), key=lambda x:x[1])
+    class_dict = dict(class_dict)
