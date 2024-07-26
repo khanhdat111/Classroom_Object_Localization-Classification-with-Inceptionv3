@@ -37,6 +37,10 @@ If you wish to access the dataset, please visit the following Google Drive link:
 
 Please note that the data is provided for academic and non-commercial use only.
 
+## Training Chart
+<p align="center">
+  <img src="Images/training_chart.png" alt="Example Image 1" width="800"/>
+</p>
 
 ## Results
 **After training the model, we had a result with Mean IoU: 0.7363 - Acc: 0.9362**
