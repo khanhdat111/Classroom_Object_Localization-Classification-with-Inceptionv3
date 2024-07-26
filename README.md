@@ -9,6 +9,9 @@ This project focuses on object detection and classification in images using Tens
 - Evaluation of model accuracy and performance metrics.
 - Visualization of detection results.
 
+## Model
+
+
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 - Python 3.8 or higher
