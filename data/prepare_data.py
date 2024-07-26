@@ -105,6 +105,10 @@ if __name__ == "__main__":
     num_classes = len(classes)
     
     (train_images, train_bboxes, train_labels), (valid_images, valid_bboxes, valid_labels), (test_images, test_bboxes, test_labels) = load_dataset(path, data_type, classes)
+
+    train_ds = tf_dataset(train_images, train_bboxes, train_labels, batch_size, shuffle=True)
+    valid_ds = tf_dataset(valid_images, valid_bboxes, valid_labels, batch_size )
+        
     print(f"Classes: {classes}")
     print(f"Total class : {num_classes}")
     print(f"Train: {len(train_images)} - {len(train_bboxes)} - {len(train_labels)}")
