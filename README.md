@@ -3,7 +3,7 @@
 ## Project Description
 This project focuses on object detection and classification in images using TensorFlow and OpenCV. It leverages the powerful deep learning capabilities of TensorFlow to train models on annotated datasets and OpenCV for image processing tasks. The goal is to accurately identify and classify objects within a variety of image contexts.
 
-##Example images after processing data with truth label and bouding box 
+## Example images after processing data with truth label and bouding box 
 <p align="center">
   <img src="Images/ex1.png" alt="Example Image 1" width="300"/>
   <img src="Images/ex2.png" alt="Example Image 2" width="300"/>
