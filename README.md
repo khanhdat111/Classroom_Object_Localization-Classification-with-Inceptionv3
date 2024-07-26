@@ -17,6 +17,9 @@ Before you begin, ensure you have the following installed:
 - Python 3.8 or higher
 - pip (Python package installer)
 
+## Example
+You can run example notebook from `notebooks/example.ipynb` to training model easier
+
 ## Installation
 
 ### Setting Up a Virtual Environment
