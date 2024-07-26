@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
 - pip (Python package installer)
 
 ## Example
-You can run example notebook from `/notebooks/example.ipynb` to training model easier
+You can run example notebook from `/notebooks/example.ipynb` to train model easier
 
 ## Data
 
