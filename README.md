@@ -1,5 +1,11 @@
 # Object Localization and Classification in classroom with InceptionV3 model
 
+## Demonstration
+
+Firstly, I introduced demo app for having an overview about this project. Here is a quick demonstration of the application in action:
+
+![Application Demo](Images/demo_lc_cla.gif)
+
 ## Project Description
 This project focuses on object localization and classification in images using TensorFlow and OpenCV. It leverages the powerful deep learning capabilities of TensorFlow to train models on annotated datasets and OpenCV for image processing tasks. The goal is to accurately identify and classify objects within a variety of image contexts.
 
@@ -48,13 +54,6 @@ Please note that the data is provided for academic and non-commercial use only.
 <p align="center">
   <img src="Images/results.png" alt="Example Image 1" width="800"/>
 </p>
-
-## Demonstration
-
-Here is a quick demonstration of the application in action:
-
-![Application Demo](Images/demo_lc_cla.gif)
-
 
 ## Installation
 
