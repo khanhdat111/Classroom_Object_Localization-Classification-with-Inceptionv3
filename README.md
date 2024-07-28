@@ -1,7 +1,7 @@
-# Object Detection and Classification in classroom with InceptionV3 model
+# Object Localization and Classification in classroom with InceptionV3 model
 
 ## Project Description
-This project focuses on object detection and classification in images using TensorFlow and OpenCV. It leverages the powerful deep learning capabilities of TensorFlow to train models on annotated datasets and OpenCV for image processing tasks. The goal is to accurately identify and classify objects within a variety of image contexts.
+This project focuses on object localization and classification in images using TensorFlow and OpenCV. It leverages the powerful deep learning capabilities of TensorFlow to train models on annotated datasets and OpenCV for image processing tasks. The goal is to accurately identify and classify objects within a variety of image contexts.
 
 ## Example images after processing data with truth label and bouding box 
 <p align="center">
@@ -15,7 +15,7 @@ This project focuses on object detection and classification in images using Tens
 - Use of TensorFlow for model training and inference.
 - Image processing and manipulation with OpenCV.
 - Evaluation of model accuracy and performance metrics.
-- Visualization of detection results.
+- Visualization of localization results.
 
 ## Model
 ![Model](Images/Architecture-of-Inception-v3.png)
@@ -30,7 +30,7 @@ You can run example notebook from `/notebooks/example.ipynb` to train model easi
 
 ## Data
 
-The data used in this project were meticulously collected from Classroom Objects and processed by our team. We gathered images through photography and manually annotated each image with labels and bounding boxes to ensure high-quality training data for our model. This dataset is essential for the precision and effectiveness of the object detection and classification tasks.
+The data used in this project were meticulously collected from Classroom Objects and processed by our team. We gathered images through photography and manually annotated each image with labels and bounding boxes to ensure high-quality training data for our model. This dataset is essential for the precision and effectiveness of the object localization and classification tasks.
 
 If you wish to access the dataset, please visit the following Google Drive link:
 [Access Dataset](https://drive.google.com/drive/folders/17gH7V77CQ9TP8NqOSK9iToDXGio-ErwW?usp=sharing)
